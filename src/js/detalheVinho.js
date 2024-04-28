@@ -12,6 +12,8 @@ let precoProduto = 0
 let quantidade = 1 // Valor padrão inicial de quantidade do produto
 let valorTotal = 0
 
+let cupomAplicado = false
+
 window.onload = function() {
     imgProduto = localStorage.getItem('imgProdutoSelecionado')
     nomeProduto = localStorage.getItem('nomeProdutoSelecionado')
@@ -38,6 +40,8 @@ function aumentarQuantidade() {
 
     quantidadeHTML.innerText = `${quantidade}`
     valorTotalHTML.innerText = `R$${valorTotal.toFixed(2)}`
+
+    cupomAplicado = false
 }
 
 function diminuirQuantidade() {
@@ -48,5 +52,18 @@ function diminuirQuantidade() {
 
         quantidadeHTML.innerText = `${quantidade}`
         valorTotalHTML.innerText = `R$${valorTotal.toFixed(2)}`
+
+        cupomAplicado = false
+    }
+}
+
+function aplicarCupom() {
+    let cupom = document.getElementById("cupom").value
+
+    if (cupom.trim().toUpperCase() === "FIAP2024" && !cupomAplicado) {
+        valorTotal -= valorTotal * 0.1
+        valorTotalHTML.innerText = `R$${valorTotal.toFixed(2)} - 10% de desconto com cupom ${cupom.toUpperCase()}`
+
+        cupomAplicado = true
     }
 }
