@@ -3,26 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinho 1</title>
+    <title>Detalhes Vinho</title>
     <link rel="stylesheet" href="../css/detalheVinho.css">
 </head>
 <body>
-    <h1>Château Carbonnieux Grand Cru Classé de Graves Pessac-Léognan AOC - 2019 750mL</h1>
-    <img src="../assets/chateau.png" alt="Produto 1">
-    <h2>Detalhes do vinho:</h2>
-    <h3>R$ 109,90</h3>
+    <h1 id="nome-produto">.</h1>
+    <img id="img-produto" src="" alt="Imagem produto">
 
-    <p>Quantidade desejada:</p>
-    <p id="quantidade">1</p>
+    <h2>Preço:</h2>
+    <p id="preco-produto"></p>
+
+    <h2>Quantidade:</h2>
+    <p id="quantidade"></p>
     <button onclick="diminuirQuantidade()">-</button>
     <button onclick="aumentarQuantidade()">+</button>
-    <h2>valor total:</h2>
-    <p id="valor-total">R$109.90</p>
 
-    <p>Sabor: Médio corpo, com taninos aveludados e acidez equilibrada. Seu final de boca é marcado por frutas pretas maduras, notas defumadas, e toques de chocolate. Aroma: Frutas vermelhas e pretas maduras, como cerejas pretas, tostados e de especiarias, como pimenta preta e alcaçuz.</p>
+    <h2>valor total:</h2>
+    <p id="valor-total"></p>
 
     <button onclick="comprar()">Comprar</button>
-
 
     <script src="../js/detalheVinho.js"></script>
 </body>
