@@ -1,36 +1,29 @@
-// ENTRADA
-let quantidade = 1
+let quantidadeHTML = document.getElementById('quantidade')
+let valorTotalHTML = document.getElementById('valor-total')
+
+let quantidade = 1 // Valor padrão inicial de quantidade do produto
+let valorTotal = 0
 
 function comprar() {
-    // let carrinho = document.getElementById('')
-
-// PROCESSAMENTO
-
-
-// SAÍDA
      alert('Produto adicionado ao carrinho com sucesso')
 }
 
+function aumentarQuantidade() {
+    quantidade++
 
-function soma() {
-    let qtdStr = document.getElementById('quantidade')
-    let resultado = document.getElementById('resultado')
-    qtdStr.innerText = `${++quantidade}`
-    let preco = quantidade * 109.9
+    valorTotal = quantidade * 109.9
 
-    resultado.innerText = `R$${preco.toFixed(2)}`
-
+    quantidadeHTML.innerText = `${quantidade}`
+    valorTotalHTML.innerText = `R$${valorTotal.toFixed(2)}`
 }
 
-function subtracao() {
-    let qtdStr = document.getElementById('quantidade')
-    let resultado = document.getElementById('resultado')
-
+function diminuirQuantidade() {
     if(quantidade > 1) {
-        qtdStr.innerText = `${--quantidade}`
-        let preco = quantidade * 109.9
+        quantidade--
 
-        resultado.innerText = `R$${preco.toFixed(2)}`
+        valorTotal = quantidade * 109.9
+
+        quantidadeHTML.innerText = `${quantidade}`
+        valorTotalHTML.innerText = `R$${valorTotal.toFixed(2)}`
     }
 }
-
