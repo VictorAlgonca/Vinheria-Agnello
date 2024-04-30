@@ -27,6 +27,36 @@ window.onload = function() {
 
     quantidadeHTML.innerText = `${quantidade}`
     valorTotalHTML.innerText = `R$${valorTotal}`
+
+    document.getElementById("sugestao-titulo").innerText = ""
+    if (nomeProduto === "Château Carbonnieux Grand Cru Classé de Graves Pessac-Léognan AOC - 2019 750mL") {
+        document.getElementById("sugestao-titulo").innerText = "Sugestão de Acompanhamentos"
+        document.getElementById("sugestao-1").innerText = "Frutos do mar grelhados, como camarões ou vieiras."
+        document.getElementById("sugestao-2").innerText = "Canapés de queijo de cabra com figos trescos."
+        document.getElementById("sugestao-3").innerText = "Salmão defumado com torradas de pão integral."
+    }
+
+    else if (nomeProduto === "Noia Rosé - 2017 750mL") {
+        document.getElementById("sugestao-titulo").innerText = "Sugestão de Acompanhamentos"
+        document.getElementById("sugestao-1").innerText = "Bruschettas de tomate fresco e manjericão."
+        document.getElementById("sugestao-2").innerText = "Tapenade de azeitonas pretas com torradas."
+        document.getElementById("sugestao-3").innerText = "Espetinhos de frutas frescas, como morangos, uvas e melão."
+    }
+
+    else if (nomeProduto === "Bertoletti Bordô suave - 2020 750mL") {
+        document.getElementById("sugestao-titulo").innerText = "Sugestão de Acompanhamentos"
+        document.getElementById("sugestao-1").innerText = "Queijos suaves, como queijo brie ou queijo camembert."
+        document.getElementById("sugestao-2").innerText = "Patês de frutas, como patê de figo ou patê de pêssego."
+        document.getElementById("sugestao-3").innerText = "Frutas frescas, como uvas, morangos e fatias de maçã."
+    }
+
+    else if (nomeProduto === "Casal Mendes Vinho verde - 2014 750mL") {
+        document.getElementById("sugestao-titulo").innerText = "Sugestão de Acompanhamentos"
+        document.getElementById("sugestao-1").innerText = "Salada de frutos do mar com camarões, mexilhões e lulas."
+        document.getElementById("sugestao-2").innerText = "Salada de verão com tomate, pepino, pimentão e queijo feta."
+        document.getElementById("sugestao-3").innerText = "Amêijoas à Bulhão Pato (amêijoas cozidas em azeite, alho e coentro)."
+    }
+
 };
 
 function comprar() {
