@@ -1,0 +1,113 @@
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/* Estilos para a seção "Imagens Vinheria" */
+.img-vinheria {
+    display: flex; /* Exibir os itens em uma linha */
+    justify-content: center; /* Centralizar os itens na linha */
+}
+
+/* Estilos para as imagens da Vinheria */
+.img-vinheria img {
+    height: 200px; /* Definir a altura das imagens */
+    margin: 0 10px; /* Espaçamento entre as imagens */
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/* Estilos para os títulos */
+.titulo {
+    text-align: center; /* Centralizar o texto horizontalmente */
+}
+
+/* Estilos para a seção principal */
+main {
+    margin-top: 20px; /* Margem superior */
+}
+
+/* Estilos para o contêiner dos produtos */
+.produtos-container {
+    display: flex; /* Exibir os itens em uma linha */
+    justify-content: center; /* Centralizar os itens na linha */
+}
+
+/* Estilos para cada caixa de produto */
+.produto-box {
+    width: calc(25% - 20px); /* Definir a largura de cada produto */
+    margin: 0 10px 20px; /* Espaçamento entre os produtos */
+    border: 1px solid black; /* Borda preta */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilos para as imagens dos produtos */
+.produto-box img {
+    max-width: 100%; /* Largura máxima */
+    height: auto; /* Altura automática */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+/* Estilos para os botões de compra */
+.produto-box button {
+    background-color: white; /* Cor de fundo branca */
+    color: black; /* Cor do texto preto */
+    padding: 10px 130px; /* Espaçamento interno */
+    border: 1px solid black; /* Borda preta */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor do mouse tipo pointer */
+    display: block; /* Exibir como bloco para centralizar horizontalmente */
+    margin: 0px; /* Espaçamento zero */
+}
+
+.produto-box button:hover {
+    background-color: #5e2129; /* Cor de fundo ao passar o mouse */
+    color: white; 
+}
+
+/* Estilos para o preço original dos produtos */
+.preco-original {
+    text-decoration: line-through; /* Texto riscado */
+}
+
+/* Estilos para o preço com desconto dos produtos */
+.preco-desconto {
+    color: red; /* Cor vermelha */
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/* Estilos para a seção "Sobre nós" */
+.sobre-nos {
+    background-color: #000; /* Cor de fundo preta */
+    color: #fff; /* Cor do texto branca */
+    padding: 30px; /* Espaçamento interno */
+    margin-top: 50px; /* Margem superior */
+    overflow: hidden; /* Ocultar conteúdo que excede o contêiner */
+}
+
+/* Estilos para a imagem do Agnello */
+.foto-agnello {
+    width: 300px; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    float: left; /* Flutuar à esquerda */
+    margin-right: 20px; /* Espaçamento à direita */
+}
+
+/* Estilos para o parágrafo do texto */
+.sobre-nos-paragrafo {
+    max-width: calc(100% - 320px); /* Largura máxima do texto */
+    float: left; /* Flutuar à esquerda */
+}
+
+/* Estilos para o título do texto */
+.sobre-nos-paragrafo h3 {
+    font-size: 24px; /* Tamanho da fonte */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilos para o texto */
+.sobre-nos-paragrafo p {
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.5; /* Altura da linha */
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
