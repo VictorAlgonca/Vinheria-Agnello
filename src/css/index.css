@@ -261,6 +261,95 @@ nav img {
 
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
+.section-comentarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comentarios {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.comentario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #212121;
+    color: #fff;
+    width: 357px;
+    height: 240px;
+    padding: 20px 0px 20px 20px;
+    border-radius: 10px;
+    
+}
+
+.comentario-principal {
+    width: 404px;
+    height: 272px;
+}
+
+.foto-perfil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.foto-perfil img {
+    width: 74px;
+}
+
+.foto-perfil h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.comentario p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.cinco-estrelas {
+    width: 340px;
+    height: 45px;
+    margin: 0px auto;
+}
+
+.cinco-estrelas img {
+    width: 45px;
+    margin-right: 20px;
+}
+
+.setas {
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.seta-esquerda img {
+    width: 45px;
+    height: 68px;
+    cursor: pointer;
+}
+
+.seta-direita img {
+    width: 45px;
+    height: 68px;
+    margin-left: 20px;
+    cursor: pointer;
+    transform: scaleX(-1);
+}
+
+
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 .rodape {
     display: flex;
     justify-content: space-between;
