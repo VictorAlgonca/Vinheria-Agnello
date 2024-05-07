@@ -1,3 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .container {
+    margin: 0 80px;
+} */
+
+.img-cabecalho {
+    width: 100%;
+    height: 544px;
+}
+
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 /* Estilos para a seção "Imagens Vinheria" */
@@ -28,6 +42,7 @@ main {
 .produtos-container {
     display: flex; /* Exibir os itens em uma linha */
     justify-content: center; /* Centralizar os itens na linha */
+    margin: 0 80px;
 }
 
 /* Estilos para cada caixa de produto */
@@ -60,7 +75,7 @@ main {
 
 .produto-box button:hover {
     background-color: #5e2129; /* Cor de fundo ao passar o mouse */
-    color: white; 
+    color: white;
 }
 
 /* Estilos para o preço original dos produtos */
@@ -77,36 +92,41 @@ main {
 
 /* Estilos para a seção "Sobre nós" */
 .sobre-nos {
-    background-color: #000; /* Cor de fundo preta */
+    display: flex;
+    background-color: #212121; /* Cor de fundo preta */
     color: #fff; /* Cor do texto branca */
-    padding: 30px; /* Espaçamento interno */
+    padding-top: 30px; /* Espaçamento interno */
+    padding-bottom: 30px;
+    width: 100%;
+    height: 544px;
     margin-top: 50px; /* Margem superior */
-    overflow: hidden; /* Ocultar conteúdo que excede o contêiner */
 }
 
 /* Estilos para a imagem do Agnello */
 .foto-agnello {
-    width: 300px; /* Largura da imagem */
-    height: auto; /* Altura automática para manter a proporção */
+    width: 481px; /* Largura da imagem */ /* Altura automática para manter a proporção */
     float: left; /* Flutuar à esquerda */
-    margin-right: 20px; /* Espaçamento à direita */
+    margin-left: 40px;
 }
 
 /* Estilos para o parágrafo do texto */
 .sobre-nos-paragrafo {
-    max-width: calc(100% - 320px); /* Largura máxima do texto */
-    float: left; /* Flutuar à esquerda */
+    width: 623px;
+    height: 348px;
+    margin-right: 160px;
+    margin-left: 500px;
+    margin-top: 40px;
 }
 
 /* Estilos para o título do texto */
 .sobre-nos-paragrafo h3 {
-    font-size: 24px; /* Tamanho da fonte */
+    font-size: 64px; /* Tamanho da fonte */
     margin-bottom: 20px; /* Espaçamento inferior */
 }
 
 /* Estilos para o texto */
 .sobre-nos-paragrafo p {
-    font-size: 16px; /* Tamanho da fonte */
+    font-size: 24px; /* Tamanho da fonte */
     line-height: 1.5; /* Altura da linha */
 }
 
