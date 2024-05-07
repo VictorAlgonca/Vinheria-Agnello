@@ -260,3 +260,42 @@ nav img {
 }
 
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212121;
+    color: #fff;
+    height: 256px;
+}
+
+.rodape h5 {
+    font-size: 24px;
+    margin-left: 127px;
+    font-weight: normal;
+}
+
+.contato {
+     display: flex;
+     font-size: 20px;
+     margin-left: 80px;
+     margin-top: 8px;
+     gap: 20px;
+}
+
+
+.footer-direitos {
+    font-size: 24px;
+    margin-right: 80px;
+    font-weight: bold;
+}
+
+.contato img {
+    width: 27px;
+}
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
