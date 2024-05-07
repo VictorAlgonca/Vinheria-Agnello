@@ -6,6 +6,7 @@
 .container {
     max-width: 1920px;
     margin: 0 auto;
+    position: relative;
 }
 
 .img-cabecalho {
@@ -15,12 +16,99 @@
     object-fit: cover;
 }
 
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 80px;
+}
+
+nav img {
+    width: 40px;
+    margin-top: 10px;
+}
+
+.nav-esquerda,
+.nav-direita {
+  display: flex;
+}
+
+.nav-esquerda ul,
+.nav-direita ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+}
+
+.nav-esquerda ul li a,
+.nav-direita ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.nav-search {
+    width: 366px;
+    height: 29px;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    text-indent: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+.hamburguer-menu {
+    display: block;
+    position: relative;
+    z-index: 1;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.hamburguer-menu input {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    cursor: pointer;
+    left: -4px;
+    top: -2px;
+    opacity: 0;
+    z-index: 1; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+}
+
+.hamburguer-menu span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  top: 4px;
+
+  background: white;
+  border-radius: 3px;
+
+  transform-origin: 4px 0px;
+}
+
+
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 /* Estilos para a seção "Imagens Vinheria" */
 .img-vinheria {
     display: flex; /* Exibir os itens em uma linha */
     justify-content: center; /* Centralizar os itens na linha */
+    margin: 60px 0;
     gap: 10px;
 }
 
