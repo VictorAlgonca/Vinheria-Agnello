@@ -106,14 +106,14 @@ main {
 .foto-agnello {
     width: 481px; /* Largura da imagem */ /* Altura automática para manter a proporção */
     float: left; /* Flutuar à esquerda */
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 /* Estilos para o parágrafo do texto */
 .sobre-nos-paragrafo {
     width: 623px;
     height: 348px;
-    margin-right: 160px;
+    margin-right: 80px;
     margin-left: 500px;
     margin-top: 40px;
 }
