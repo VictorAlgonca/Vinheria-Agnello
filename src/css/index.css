@@ -108,7 +108,7 @@ nav img {
 .img-vinheria {
     display: flex; /* Exibir os itens em uma linha */
     justify-content: center; /* Centralizar os itens na linha */
-    margin: 60px 0;
+    margin-top: 60px;
     gap: 10px;
 }
 
