@@ -11,7 +11,7 @@
 
 .img-cabecalho {
     width: 100%;
-    height: 800px;
+    height: 670px;
     transform: scaleX(-1);
     object-fit: cover;
 }
@@ -99,6 +99,35 @@ nav img {
   border-radius: 3px;
 
   transform-origin: 4px 0px;
+}
+
+.texto-header {
+    display: block;
+    color: white;
+    position: absolute;
+    top: 218px;
+    margin-left: 80px;
+}
+
+.texto-header h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    max-width: 525px;
+}
+
+.texto-header p {
+    margin-bottom: 25px;
+    font-size: 24px;
+    max-width: 564px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 24px;
+    padding: 10px 80px;
 }
 
 
