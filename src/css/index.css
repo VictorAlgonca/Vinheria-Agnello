@@ -347,6 +347,55 @@ nav img {
 
 
 
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+.newsletter form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 256px;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+
+}
+
+.input-email label {
+    display: block;
+    font-weight: bold;
+}
+
+.input-email input {
+    width: 859px;
+    height: 36px;
+    border-radius: 5px;
+    text-indent: 10px;
+    border-width: 1px;
+    border-style: solid;
+
+}
+
+.newsletter h4 {
+    font-size: 40px;
+}
+
+.newsletter p {
+    font-size: 20px;
+}
+
+
+.btn-newsletter {
+    background-color: #212121;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 40px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+
 
 
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
